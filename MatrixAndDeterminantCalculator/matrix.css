@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #212121;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#nav1{
+    display: flex;
+    padding: 10px;
+
+    #add_sub, #multiply{
+        margin: auto;
+        padding: 5px 25px;
+        background-color: rgb(170, 179, 207);
+        color: rgb(52, 24, 11);
+        cursor: default;
+        :hover{
+            color: azure;
+        }
+        border-radius: 2.5px;
+    }
+}
+
+main{
+    #row, #column{
+        width: 40px;
+        font-size: large;
+    }
+
+    #result{
+        
+        margin: 10px 0px 0px 20px;
+        display: flex;
+        align-items: center;
+
+        >form{
+
+            display: flex;
+            align-items: center;
+            td{
+                padding: 1.5px;
+            }
+            
+            input{
+                width: 30px;
+                padding: 2px;
+            }
+
+            #operation{
+                width: 20px;
+                margin: 0px 25px ;
+                font-size: large;
+                text-align: center;
+            }
+
+            #equi{
+                margin: 0px 20px;
+                padding: 2px;
+                font-size: large;
+            }
+
+            
+        }
+
+        
+        #resultMatrix{
+            padding: 2px;
+            margin-left: 5px;
+            border: 1px white dotted;
+            border-collapse: collapse;
+            td{
+                padding: 5px;
+                border: 1px white dashed; 
+                
+            }
+        }
+        
+
+    }
+    #process{
+        margin: 20px 0px 0px 20px;
+    }
+}
