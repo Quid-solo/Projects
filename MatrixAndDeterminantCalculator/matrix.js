@@ -77,6 +77,7 @@ determinant.addEventListener('click', ()=>{
 
 inverse.addEventListener('click', () => {
     result.innerHTML = "";
+    order.innerHTML = "";
     result.innerHTML = "<h1>Coming soon...</h1>";
 })
 
