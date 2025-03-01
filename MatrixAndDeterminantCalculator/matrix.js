@@ -12,6 +12,7 @@ fetch('Header/header.html')
 const add_sub = document.querySelector('#add_sub');
 const multiply = document.querySelector('#multiply');
 const determinant = document.querySelector('#determinant');
+const inverse = document.querySelector('#inverse');
 let m, n, p, q, r, s;
 const result = document.querySelector("#result");
 
@@ -67,12 +68,17 @@ add_sub.addEventListener('click', ()=>{
 multiply.addEventListener('click', ()=>{
     result.innerHTML = "";
     createRowColumn("multiply");
-})
+});
 
 determinant.addEventListener('click', ()=>{
     result.innerHTML = "";
     createRowColumn("determinant");
 });
+
+inverse.addEventListener('click', () => {
+    result.innerHTML = "";
+    result.innerHTML = "<h1>Coming soon...</h1>";
+})
 
 function createMatrix(m,n,v){                                        // To create a matrix for input
     let table = document.createElement('table');
