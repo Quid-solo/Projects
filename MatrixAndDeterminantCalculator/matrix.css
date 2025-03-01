@@ -16,7 +16,7 @@ html,body{
     display: flex;
     padding: 10px;
 
-    #add_sub, #multiply{
+    >div{
         margin: auto;
         padding: 5px 25px;
         background-color: rgb(170, 179, 207);
@@ -30,8 +30,8 @@ html,body{
 }
 
 main{
-    #row, #column{
-        width: 40px;
+    .order{
+        width: 50px;
         font-size: large;
     }
 
