@@ -5,7 +5,24 @@ header{
     background-color: aliceblue;
 
     >#logo{
-        height: 100px;
+        height: 70%;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        >img{
+            height: 100%;
+            border-radius: 50%;
+        }
+
+        >h1{
+            font-family: cursive;
+            font-style: italic;
+            font-size: 60px;
+            letter-spacing: 7px;
+            margin: auto;
+            color: #4ca9af;
+        }
+       
     }
 
     >nav{
