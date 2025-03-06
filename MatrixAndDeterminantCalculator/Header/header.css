@@ -3,6 +3,7 @@ header{
     width: 100%;
     position: fixed;
     background-color: aliceblue;
+    border-radius: 5px;
 
     >#logo{
         height: 70%;
@@ -47,10 +48,6 @@ header{
         }
 
         #Matrix{
-            border-radius: unset;
-        }
-
-        #Determinant{
             border-radius: 0 2.5em 2.5em 0;
         }
         

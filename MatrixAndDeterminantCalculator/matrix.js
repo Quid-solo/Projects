@@ -37,7 +37,7 @@ function createRowColumn(type){                                            // Cr
         order.innerHTML = `<p style="display: inline;">Order of matrix 1 : </p>
     <input id="row1" class="order" type="number" title="No. of rows in matrix 1" placeholder="p">
     <i class="ri-close-line"></i>
-    <input id="column1" type="number" title="No. of columns in matrix 1" placeholder="q">
+    <input id="column1" class="order" type="number" title="No. of columns in matrix 1" placeholder="q">
     <br>
     <br>
     <p style="display: inline;">Order of matrix 2 : </p>
