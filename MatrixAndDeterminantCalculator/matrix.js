@@ -193,7 +193,7 @@ function makeArray(arr){
         arr.push([]);
         for(let j=1; j<=n; j++){
             let a = parseInt(document.querySelector(`#a${i}${j}`).value);
-            if(a==''|| isNaN(a)) return false;
+            if( isNaN(a)) return false;
             else arr[i-1][j-1] = a;   
         }
     }
@@ -306,6 +306,7 @@ function det(){
 matform.addEventListener('submit', (e)=>{
     e.preventDefault();
     resultMatrix.innerHTML = "";
+    msg.innerText = "";
     if(order.id === "order_add") addition_subtraction();
     else if(order.id === "order_multiply") multiplication();
     else if(order.id === "order_determinant") det();
